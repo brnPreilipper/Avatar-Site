@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Kdam+Thmor+Pro&family=Poppins:wght@400;700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+li:hover {
+    color: rgb(11, 106, 184);
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url(https://whatsondisneyplus.com/wp-content/uploads/2022/05/avatar-e1652105365719.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: rgb(2, 222, 230);
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(18, 17, 19);
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    font-display: flex;
+    justify-content: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: rgb(11, 106, 184);
+    color: #fff;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 100px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card.card:hover {
+    transform: scale(1.08);
+}
+
+.banner-1 {
+    background-image: url('https://www.estrelando.com.br/uploads/2022/12/16/sam-site-1671227068.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://static.wikia.nocookie.net/jamescameronsavatar/images/b/bf/Avatar_TWoW_Jake_Textless_Poster.jpg/revision/latest?cb=20221125234620');
+}
+
+.banner-3 {
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/97a6cef8-6a8b-11ed-aa6e-9587410378a2/SUN6IH7FTZM6LBDGQUWFLHZCDA.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://static.wikia.nocookie.net/liberproeliis/images/5/50/Avatar_TWoW_Neytiri_Textless_Poster.webp/revision/latest?cb=20221222223856&path-prefix=pt-br');
+}
+
+.banner-5 {
+    background-image: url('https://static.wikia.nocookie.net/jamescameronsavatar/images/7/7e/Stephen_Lang_Avatar_2.jpg/revision/latest?cb=20221209033001');
+}
+
+.banner-6 {
+    background-image: url('https://static.wikia.nocookie.net/villains/images/a/af/Quaritch_Recom.jpeg/revision/latest?cb=20221126011827');
+}
+
+footer {
+    height: 200px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+span {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape {
+    margin-bottom: 30px;
+    color: black;
+}
+
+#banner-1 {
+    background-image: url(https://images4.alphacoders.com/125/1253898.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.fotos-container {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.fotos-content {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.foto {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+}
+
+.foto:hover {
+    transform:scale(1.10);
+    
+}
+
+.imagem-1 {
+    background-image: url('https://images3.alphacoders.com/129/1292401.jpg');
+}
+
+.imagem-2 {
+    background-image: url('https://images.alphacoders.com/129/1292804.jpg');
+}
+
+.imagem-3 {
+    background-image: url('https://images4.alphacoders.com/129/1294467.jpg');
+}
+
+.imagem-4 {
+    background-image: url('https://images8.alphacoders.com/129/1294468.jpg');
+}
+
+.imagem-5 {
+    background-image: url('https://images2.alphacoders.com/129/1294470.png');
+}
+
+.imagem-6 {
+    background-image: url('https://images.alphacoders.com/129/1294461.jpg');
+}
+
+.imagem-7 {
+    background-image: url('https://images6.alphacoders.com/129/1290037.jpg');
+}
+
+.imagem-8 {
+    background-image: url('https://images5.alphacoders.com/129/1290035.png');
+}
+
+.imagem-9 {
+    background-image: url('https://images4.alphacoders.com/128/1286093.jpg');
+}
+
+.imagem-10 {
+    background-image: url('https://images5.alphacoders.com/128/1286091.jpg');
+}
+
+.imagem-11 {
+    background-image: url('https://images8.alphacoders.com/125/1253780.jpg');
+}
+
+.imagem-12 {
+    background-image: url('https://images2.alphacoders.com/123/1235922.jpg');
+}
+
+.imagem-13 {
+    background-image: url('https://images8.alphacoders.com/106/1063148.jpg');
+}
+
+.imagem-14 {
+    background-image: url('https://images4.alphacoders.com/123/1235921.jpg');
+}
+
+.imagem-15 {
+    background-image: url('https://images2.alphacoders.com/129/1294463.jpg');
+}
+
+#banner-2 {
+    background-image: url(https://images5.alphacoders.com/129/1290541.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+h1 {
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color:rgb(11, 106, 184);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.linkedin {
+    margin-top: 60px;
+    text-align: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+p {
+    text-align: center;
+    color: rgb(11, 106, 184);
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+img:hover {
+    transform: scale(1.10);
+}
+
+#banner-3 {
+    background-image: url(https://images2.alphacoders.com/126/1266871.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.formulario {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-formulario {
+    font-size: 40px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(82, 171, 243);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nome {
+    font-size: 50px;
+    border-color: rgb(11, 106, 184);
+    color: #fff;
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.email {
+    font-size: 50px;
+    border-color: rgb(11, 106, 184);
+    color: #fff;
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.satisfação {
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.range {
+    transform: scale(3.2);
+    margin-bottom: 40px;
+}
+
+textarea {
+    font-size: 50px;
+    border-color: rgb(11, 106, 184);
+    color: #fff;
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+    margin-top: 0;
+    font-weight: 900;
+    transition: 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(11, 106, 184);
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    color: #fff;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}

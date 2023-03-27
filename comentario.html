@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentario</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logo1.png" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./fotos.html">
+                    <li>Fotos</li>
+                </a>
+                <a href="./comentario.html">
+                    <li>Comentários</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner-2"></div>
+
+    <form class="formulario" action="./comentario.html">
+        <h2 class="titulo-formulario">FAÇA A SUA AVALIAÇÃO</h2>
+        <input class="nome" style="display: block" id="nome" type="text" name="nome" placeholder="Nome" />
+        <input class="email" style="display: block" id="email" type="email" nome="email" placeholder="Digite um email válido" />
+        <textarea class="avaliação" style="display: block" name="mensagem" id="mensagem" cols="24" rows="5" placeholder="Digite sua avaliação"></textarea>
+        <h2 class="satisfação">Qual o nível de sua satisfação?</h2>
+        <input class="range" style="display: block" id="range" type="range" name="range" />
+        <button>Enviar</button>
+    </form>
+
+    <footer>
+        <img style="object-fit: contain;" id="logo" src="./logo2.jpg" />
+        <span>Todos os direitos reservados © </span>
+        <span>Desenvolvido por: Bruno Preilipper</span>
+        <span class="rodape">--------</span>
+    </footer>
+</body>
+</html>
